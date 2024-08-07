@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Fundo branco */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FDD835; /* Amarelo cor limão */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero-image {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.hero-image img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.highlight-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #FFA726; /* Cor laranja para destaque */
+    text-shadow: 2px 2px #000;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-top: -0.5em;
+    color: #FFFFFF;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+    color: #FDD835; /* Amarelo cor limão */
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services li {
+    background-color: #F5F5F5; /* Fundo claro */
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+}
+
+#projects article {
+    background-color: #F5F5F5; /* Fundo claro */
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+}
+
+#testimonials blockquote {
+    background-color: #F5F5F5; /* Fundo claro */
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-left: 5px solid #FDD835; /* Amarelo cor limão */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 
